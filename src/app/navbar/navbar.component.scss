@@ -1,0 +1,21 @@
+*{
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.some{
+    background-color:white;
+    height:40px;
+    width:100%;
+    display:flex;
+    justify-content: space-around;
+    list-style-type: none; 
+}
+li>a{
+    display: block;
+    padding: 14px 16px;
+      
+}
+li>a:hover{
+    background-color:forestgreen;
+    color:white;
+}
